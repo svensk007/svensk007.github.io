@@ -18,17 +18,7 @@ export default function Home() {
               <li><a className='text-white text-2xl px-4 ml-4 hover:underline' href="#">Contact Us</a></li>
             </ul>
           </nav>
-
-          <div className='px-36 pt-36'>
-            <h2 className='text-8xl font-extrabold text-white'>`&lsquo;`ello there!👋</h2>
-            <h3 className='text-white text-4xl font-semibold'>We <span className='line-through'> are</span> <span className='text-slate-600/90'>do minimal amounts of trolling</span></h3>
-          </div>
-
-          <div className='px-36 pt-10'>
-            <button type='button' className='transition-all duration-150 ease-linear bg-fuchsia-600 text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-sky-500 hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
-            <button type='button' className='px-5 ml-3 text-gray-400 focus:outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
-          </div>
-
+          
         </section>
       </main>
     </div>
