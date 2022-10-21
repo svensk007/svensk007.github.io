@@ -12,8 +12,8 @@ export default function Home() {
       <main className='font-Inter bg-gray-850'>
         <section className='min-h-screen'>
 
-          <nav className='py-8 px-8 mb-20 flex justify-between bg-gradient-to-b from-gray-900/75 to-white/0'>
-            <h1 className='cursor-pointer font-extrabold text-5xl text-white hover:underline'><span className='text-transparent bg-clip-text bg-gradient-to-br from-fuchsia-600 to-sky-500'>El3troNam </span>Studios</h1>
+          <nav className='py-8 px-8 mb-20 flex justify-between bg-gradient-to-b from-black/60 to-white/0'>
+            <h1 className='cursor-pointer font-extrabold text-5xl text-white hover:underline'><span className='text-transparent bg-clip-text bg-gradient-to-br from-hot-pink to-regal-blue'>El3troNam </span>Studios</h1>
             <ul className='flex items-center'>
               <li><a className='text-white text-2xl px-4 ml-4 hover:underline' href="#">Contact Us</a></li>
             </ul>
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <div className='px-36 pt-10'>
-            <button type='button' className='transition-all duration-150 ease-linear bg-fuchsia-600 text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-sky-500 hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
+            <button type='button' className='transition-all duration-150 ease-linear bg-hot-pink text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-regal-blue hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
             <button type='button' className='px-5 ml-3 text-gray-400 focus:outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
           </div>
 

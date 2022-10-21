@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         Inter: 'Inter',
       },
+      colors: {
+        'hot-pink' : "#DB00FF",
+        'regal-blue' : "#00A3FF",
+      },
     },
   },
   plugins: [],
