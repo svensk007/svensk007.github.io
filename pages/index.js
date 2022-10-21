@@ -13,9 +13,9 @@ export default function Home() {
         <section className='min-h-screen'>
 
           <nav className='py-8 px-8 mb-20 flex justify-between bg-gradient-to-b from-black/60 to-white/0'>
-            <h1 className='cursor-pointer font-extrabold text-5xl text-white hover:underline'><span className='text-transparent bg-clip-text bg-gradient-to-br from-hot-pink to-regal-blue'>El3troNam </span>Studios</h1>
+            <h1 className='cursor-pointer font-extrabold text-5xl text-white hover:underline' href="./index.js"><span className='text-transparent bg-clip-text bg-gradient-to-br from-hot-pink to-regal-blue'>El3troNam </span>Studios</h1>
             <ul className='flex items-center'>
-              <li><a className='text-white text-2xl px-4 ml-4 hover:underline' href="#">Contact Us</a></li>
+              <li><a className='text-white text-2xl px-4 ml-4 hover:underline' href='./Contact'>Contact Us</a></li>
             </ul>
           </nav>
 
