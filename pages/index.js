@@ -27,8 +27,8 @@ export default function Home() {
             </div>
 
             <div className='pt-10'>
-              <button type='button' className='transition-all duration-150 ease-linear bg-hot-pink text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-regal-blue hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
-              <button type='button' className='px-5 ml-3 text-gray-400 outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
+              <button type='button' className='transition-all duration-150 ease-linear bg-hot-pink text-white px-7 py-2.5 rounded-md hover:drop-shadow-lg hover:bg-regal-blue hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
+              <button type='button' className='px-8 py-3 ml-2 text-gray-400 outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
             </div>
 
           </div>
