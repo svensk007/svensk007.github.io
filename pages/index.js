@@ -20,7 +20,7 @@ export default function Home() {
           </nav>
 
           <div className='px-36 pt-36'>
-            <h2 className='text-8xl font-extrabold text-white'>`&lsquo;`ello there!👋</h2>
+            <h2 className='text-8xl font-extrabold text-white'>&lsquo;ello there!👋</h2>
             <h3 className='text-white text-4xl font-semibold'>We <span className='line-through'> are</span> <span className='text-slate-600/90'>do minimal amounts of trolling</span></h3>
           </div>
 
