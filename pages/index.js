@@ -19,14 +19,18 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className='px-36 pt-36'>
-            <h2 className='text-8xl font-extrabold text-white'>&lsquo;ello there!👋</h2>
-            <h3 className='text-white text-4xl font-semibold'>We <span className='line-through'> are</span> <span className='text-slate-600/90'>do minimal amounts of trolling</span></h3>
-          </div>
+          <div className='px-36'>
 
-          <div className='px-36 pt-10'>
-            <button type='button' className='transition-all duration-150 ease-linear bg-hot-pink text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-regal-blue hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
-            <button type='button' className='px-5 ml-3 text-gray-400 focus:outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
+            <div className='pt-36'>
+              <h2 className='text-8xl font-extrabold text-white'>&lsquo;ello there!👋</h2>
+              <h3 className='text-white text-4xl font-semibold'>We <span className='line-through'> are</span> <span className='text-slate-600/90'>do minimal amounts of trolling</span></h3>
+            </div>
+
+            <div className='pt-10'>
+              <button type='button' className='transition-all duration-150 ease-linear bg-hot-pink text-white px-5 py-2 rounded-md hover:drop-shadow-lg hover:bg-regal-blue hover:scale-105 focus:outline-none focus:ring focus:ring-fuchsia-900'>Explore</button>
+              <button type='button' className='px-5 ml-3 text-gray-400 outline-none hover:underline hover:text-white transition-all duration-75'>Learn More</button>
+            </div>
+
           </div>
 
         </section>
