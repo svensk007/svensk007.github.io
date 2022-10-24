@@ -10,8 +10,8 @@ module.exports = {
         Inter: 'Inter',
       },
       colors: {
-        'hot-pink' : "#DB00FF",
-        'regal-blue' : "#00A3FF",
+        'hot-pink' : "#fa00ff",
+        'regal-blue' : "#00a3ff",
       },
     },
   },
