@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Inter: 'Inter',
-      },
+      Inter: ["Inter", "sans-serif"],
+    },
       colors: {
         'hot-pink' : "#fa00ff",
         'regal-blue' : "#00a3ff",

@@ -27,7 +27,7 @@ export default function Home() {
                   className="text-white text-2xl px-4 ml-4 hover:underline"
                   href="./contact"
                 >
-                  Contact Us
+                  Contact &rarr;
                 </a>
               </li>
             </ul>
