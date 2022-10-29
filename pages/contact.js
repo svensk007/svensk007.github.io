@@ -27,7 +27,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a className="text-white text-2xl px-4 ml-4 hover:underline">
-                  <Link href="./">&larr; Back</Link>
+                  <Link href="./">&larr; Home</Link>
                 </a>
               </li>
             </ul>
