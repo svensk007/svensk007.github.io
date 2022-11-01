@@ -55,12 +55,14 @@ export default function Home() {
                   Explore
                 </button>
               </Link>
-              <button
-                type="button"
-                className="px-8 py-3 ml-2 text-gray-400 outline-none hover:underline hover:text-white transition-all duration-75"
-              >
-                Learn More
-              </button>
+              <Link href="/learn">
+                <button
+                  type="button"
+                  className="px-8 py-3 ml-2 text-gray-400 outline-none hover:underline hover:text-white transition-all duration-75"
+                >
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </section>
