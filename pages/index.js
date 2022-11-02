@@ -27,7 +27,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a className="text-white text-2xl px-4 ml-4 hover:underline">
-                  <Link href="/contact">Contact &rarr;</Link>
+                  <Link href="/contact">Contact &rarr;</Link> {/*new way to use <Link> in nextjs 13 https://nextjs.org/blog/next-13#nextlink*/}
                 </a>
               </li>
             </ul>
