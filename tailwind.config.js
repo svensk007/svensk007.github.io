@@ -7,13 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      Inter: ["Inter", "sans-serif"],
-    },
+        "Inter": "Inter", "sans-serif"
+      },
       colors: {
-        'hot-pink' : "#fa00ff",
-        'regal-blue' : "#00a3ff",
+        "hot-pink": "#fa00ff",
+        "regal-blue": "#00a3ff",
       },
     },
   },
   plugins: [],
-}
+};
