@@ -35,9 +35,9 @@ export default function Home() {
           </nav>
 
           <div className="px-36">
-            <div className="pt-10 lg:pt-36">
+            <div className="pt-10 lg:pt-20">
               <h2 className="text-8xl font-extrabold text-white">
-                &lsquo;ello there!👋
+                Hello there!👋
               </h2>
               <h3 className="text-white text-3xl font-semibold">
                 We <span className="line-through"> are</span>{" "}
