@@ -27,7 +27,8 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a className="text-white text-2xl px-4 ml-4 hover:underline">
-                  <Link href="/contact">Contact &rarr;</Link> {/*new way to use <Link> in nextjs 13 https://nextjs.org/blog/next-13#nextlink*/}
+                  <Link href="/contact">Contact &rarr;</Link>{" "}
+                  {/*new way to use <Link> in nextjs 13 https://nextjs.org/blog/next-13#nextlink*/}
                 </a>
               </li>
             </ul>
@@ -41,7 +42,7 @@ export default function Home() {
               <h3 className="text-white text-3xl font-semibold">
                 We <span className="line-through"> are</span>{" "}
                 <span className="text-slate-600/90">
-                  do minimal amounts of trolling
+                  do miniscule amounts of tomfoolery
                 </span>
               </h3>
             </div>
