@@ -1,29 +1,18 @@
 {
-  "homepage": "https//svensk007.github.io/svensk007.github.io",
-  "name": "tailwind-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "src",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "lint": "next lint"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "next": "^12.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.6.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1",
-    "gh-pages": "^4.0.0",
-    "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.0"
+    "@astrojs/check": "^0.3.1",
+    "astro": "^3.5.5",
+    "tailwind": "^4.0.0",
+    "typescript": "^5.2.2"
   }
 }
